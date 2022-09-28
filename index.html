@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stepper</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <main class="main">
+      <div class="container">
+        <section class="stepperSection">
+          <div class="step">
+            <div class="stepNum stepNumDone">1</div>
+
+            <label class="stepLabel stepLabelDone">Cabin</label>
+          </div>
+
+          <div class="stepProgressLine stepPLDone"></div>
+
+          <div class="step">
+            <div class="stepNum stepNumCurrent">2</div>
+
+            <label class="stepLabel stepLabelCurrent">Meals</label>
+          </div>
+
+          <div class="stepProgressLine stepPLNotDone"></div>
+
+          <div class="step">
+            <div class="stepNum stepNumNotDone">3</div>
+
+            <label class="stepLabel stepLabelNotDone">Upgrades</label>
+          </div>
+
+          <div class="stepProgressLine stepPLNotDone"></div>
+
+          <div class="step">
+            <div class="stepNum stepNumNotDone">4</div>
+
+            <label class="stepLabel stepLabelNotDone">Payment</label>
+          </div>
+        </section>
+
+        <section class="midSection">
+          <section class="descrSection">
+            <h1 class="descrTitle">Meal Preferences</h1>
+
+            <p class="descrP">
+              Your flight comes with breakfast, lunch and dinner. Please make
+              your selections below. Changes to your order can be made up to 48
+              hours before your flight.
+            </p>
+          </section>
+
+          <form class="formSection">
+            <section class="formFoodSection">
+              <div class="formOption">
+                <label class="optionLabel">Breakfast</label>
+
+                <select class="optionSelect">
+                  <option selected>Sausage Egg Scramble Bowl</option>
+                </select>
+              </div>
+
+              <div class="formOption">
+                <label class="optionLabel">Lunch</label>
+
+                <select class="optionSelect">
+                  <option selected>Club Sandwich Meal</option>
+                </select>
+              </div>
+
+              <div class="formOption">
+                <label class="optionLabel">Dinner</label>
+
+                <select class="optionSelect">
+                  <option selected>Wagyu Beef Sliders Meal</option>
+                </select>
+              </div>
+            </section>
+
+            <section class="formDrinksSection">
+              <div class="formOption">
+                <label class="optionLabel">Drink</label>
+
+                <select class="optionSelect">
+                  <option selected>Coffee</option>
+                </select>
+              </div>
+
+              <div class="formOption">
+                <label class="optionLabel">Drink</label>
+
+                <select class="optionSelect">
+                  <option selected>Cranberry Juice</option>
+                </select>
+              </div>
+
+              <div class="formOption">
+                <label class="optionLabel">Drink</label>
+
+                <select class="optionSelect">
+                  <option selected>Red Wine</option>
+                </select>
+              </div>
+            </section>
+          </form>
+
+          <section class="dessertSection">
+            <input class="dessertCheckbox" type="checkbox" />
+
+            <label class="dessertLabel">I'd like dessert, too!</label>
+          </section>
+        </section>
+
+        <nav class="navBttnsDiv">
+          <button class="navBttns backBttn">Back</button>
+
+          <button class="navBttns continueBttn">Continue</button>
+        </nav>
+      </div>
+    </main>
+  </body>
+</html>
